@@ -21,7 +21,8 @@
     "react": "^17.0.1 || ^18.2.0"
   },
   "dependencies": {
-    "@rails/actioncable": "^7.0.0"
+    "@rails/actioncable": "^7.0.0",
+    "@sumail-01/react-use-action-cable": "https://github.com/sumail-01/react-use-action-cable.git"
   },
   "devDependencies": {
     "@babel/cli": "^7.16.7",
