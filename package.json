@@ -33,8 +33,7 @@
     "jest": "^27.5.1"
   },
   "publishConfig": {
-    "access": "public",
-    "registry": "https://npm.pkg.github.com/"
+    "@sumail-01:registry": "https://npm.pkg.github.com"
   },
   "keywords": [
     "react",
