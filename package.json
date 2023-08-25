@@ -12,7 +12,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/sumail-01/react-use-action-cable.git"
+    "url": "git+https://github.com/sumail-01/react-use-action-cable.git"
   },
   "files": [
     "dist"
@@ -21,8 +21,7 @@
     "react": "^17.0.1 || ^18.2.0"
   },
   "dependencies": {
-    "@rails/actioncable": "^7.0.0",
-    "@sumail-01/react-use-action-cable": "https://github.com/sumail-01/react-use-action-cable.git"
+    "@rails/actioncable": "^7.0.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.16.7",
@@ -35,7 +34,7 @@
   },
   "publishConfig": {
     "access": "public",
-    "registry": "https://registry.npmjs.org/"
+    "registry": "https://npm.pkg.github.com/"
   },
   "keywords": [
     "react",
@@ -45,5 +44,12 @@
     "actioncable",
     "socket",
     "websocket"
-  ]
+  ],
+  "bugs": {
+    "url": "https://github.com/sumail-01/react-use-action-cable/issues"
+  },
+  "homepage": "https://github.com/sumail-01/react-use-action-cable#readme",
+  "directories": {
+    "example": "examples"
+  }
 }
