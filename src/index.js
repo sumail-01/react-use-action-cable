@@ -1,9 +1,9 @@
 import { useEffect, useMemo, useState, useRef } from 'react';
 import { createConsumer } from '@rails/actioncable';
 
-global.addEventListener = () => {};
+// global.addEventListener = () => {};
 
-global.removeEventListener = () => {};
+// global.removeEventListener = () => {};
 
 const log = (x) => {
   if(x.verbose) console[x.type](`useActionCable: ${x.message}`)
